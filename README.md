@@ -68,7 +68,7 @@ npm config set target_os android
 npm config set target_arch arm
 ```
 
-Additional parameters needed to build are documented at https://github.com/Arca/Arca-browser/wiki/Build-configuration
+Additional parameters needed to build are documented at https://github.com/alarti/Arca-browser/wiki/Build-configuration
 
 Internal developers can find more information at https://github.com/Arca/devops/wiki/%60.env%60-config-for-Arca-Developers
 
