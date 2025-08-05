@@ -16,61 +16,61 @@ Table of contents
   - [Triage help](#triage-help)
 
 ## How can you contribute?
-Brave welcomes contributions of all kinds! You can make a huge impact without writing a single line of code
+arca welcomes contributions of all kinds! You can make a huge impact without writing a single line of code
 
 ### Help triage issues
-One of the easiest ways to help is to [look through our issues tab](https://github.com/brave/brave-browser/issues)
+One of the easiest ways to help is to [look through our issues tab](https://github.com/arca/arca-browser/issues)
 * Does the issue still happen? Sometimes we fix the problem and don't always close the issue
 * Are there clear steps to reproduce the issue? If not, let's find and document some
 * Is the issue a duplicate? If so, share the issue that is being duplicated in the conversation
-* See our [Triage Guidelines page](https://github.com/brave/brave-browser/wiki/Triage-Guidelines) for more info about this process
+* See our [Triage Guidelines page](https://github.com/arca/arca-browser/wiki/Triage-Guidelines) for more info about this process
 * Making sure issues that are fixed have the appropriate milestone set. There may be pull requests fixing the bug on the different product channels and sometimes the issues are forgotten about (and aren't updated)
 
 ### Updating documentation
 Documentation is extremely important. There are lots of areas we can improve:
-* Having more clear or up-to-date instructions in the README for both [`brave-browser`](https://github.com/brave/brave-browser/blob/master/README.md) and [`brave-core`](https://github.com/brave/brave-core/blob/master/README.md).
-* Capturing/updating helpful information [in our wiki](https://github.com/brave/brave-browser/wiki). You'll need to reach out to a Brave team member to request permission - you can do this by creating a new issue or tagging a Brave team member in an existing issue.
+* Having more clear or up-to-date instructions in the README for both [`arca-browser`](https://github.com/arca/arca-browser/blob/master/README.md) and [`arca-core`](https://github.com/arca/arca-core/blob/master/README.md).
+* Capturing/updating helpful information [in our wiki](https://github.com/arca/arca-browser/wiki). You'll need to reach out to a arca team member to request permission - you can do this by creating a new issue or tagging a arca team member in an existing issue.
 * Helping to propose a way to bring documentation to other languages. Right now, everything is in English
 * Improving this document :smile:
 
 ### Help with translations
-All text being added to Brave is done initially in English (en-US) and then is translated by real people into other languages.
+All text being added to arca is done initially in English (en-US) and then is translated by real people into other languages.
 We're missing translations for many languages and some translations might be incomplete or poor quality.
 
-For everything you'd need to get started, check out https://explore.transifex.com/brave/brave_en/ :smile:
+For everything you'd need to get started, check out https://explore.transifex.com/arca/arca_en/ :smile:
 
 ### Work on the code
-* The [repo's wiki](https://github.com/brave/brave-browser/wiki) has instructions for cloning the repo and getting setup on your platform of choice
-* Check out the [troubleshooting page](https://github.com/brave/brave-browser/wiki/Troubleshooting) if you get stuck
-* Once you're up and running, find an interesting issue to fix. Check out issues labelled with [good first issue](https://github.com/brave/brave-browser/labels/good%20first%20issue)
-  - some issues only require knowledge of JavaScript (for example, pages using React and our [Brave UI library](https://github.com/brave/brave-ui))
-  - other issues may require C++ changes in either the Brave code or in Chromium
+* The [repo's wiki](https://github.com/arca/arca-browser/wiki) has instructions for cloning the repo and getting setup on your platform of choice
+* Check out the [troubleshooting page](https://github.com/arca/arca-browser/wiki/Troubleshooting) if you get stuck
+* Once you're up and running, find an interesting issue to fix. Check out issues labelled with [good first issue](https://github.com/arca/arca-browser/labels/good%20first%20issue)
+  - some issues only require knowledge of JavaScript (for example, pages using React and our [arca UI library](https://github.com/arca/arca-ui))
+  - other issues may require C++ changes in either the arca code or in Chromium
 
 ## Getting started
 * Make sure you have a [GitHub account](https://github.com/join).
-* Submit a [ticket](https://github.com/brave/brave-browser/issues) for your issue if one does not already exist. Please include the Brave version, operating system, and steps to reproduce the issue.
-* Fork the repository on GitHub (this might be [`brave-browser`](https://github.com/brave/brave-browser), [`brave-core`](https://github.com/brave/brave-core), or both).
+* Submit a [ticket](https://github.com/arca/arca-browser/issues) for your issue if one does not already exist. Please include the arca version, operating system, and steps to reproduce the issue.
+* Fork the repository on GitHub (this might be [`arca-browser`](https://github.com/arca/arca-browser), [`arca-core`](https://github.com/arca/arca-core), or both).
 * For changes to JavaScript files, we recommend installing a [Standard](http://standardjs.com/) plugin for your preferred text editor in order to ensure code style consistency.
 * For C++ changes, you can consider setting up [clang-format](https://chromium.googlesource.com/chromium/src/+/master/docs/sublime_ide.md#Format-Selection-with-Clang_Format-Chromium-only) for your editor.
-* For changes which involve patches, please check out our [Patching Chromium](https://github.com/brave/brave-browser/wiki/Patching-Chromium) guide.
+* For changes which involve patches, please check out our [Patching Chromium](https://github.com/arca/arca-browser/wiki/Patching-Chromium) guide.
 
 ### Making changes
 Once you've cloned the repo to your computer, you're ready to start making edits!
 
 Please note that there are two repositories here:
-* the root project (this repo, [`brave-browser`](https://github.com/brave/brave-browser)), which pulls down all of the Chromium code into `src/`
-* [`brave-core`](https://github.com/brave/brave-core) is basically a sub-module (repo in a repo) which is located on disk under the root at `src/brave`
+* the root project (this repo, [`arca-browser`](https://github.com/arca/arca-browser)), which pulls down all of the Chromium code into `src/`
+* [`arca-core`](https://github.com/arca/arca-core) is basically a sub-module (repo in a repo) which is located on disk under the root at `src/arca`
 
 Depending on which you're editing, you'll need to add your fork to the remotes list. By default, `origin` is set to upstream.
-For example, here's how GitHub user `bsclifton` would add BOTH remotes `brave-browser` and `brave-core`:
+For example, here's how GitHub user `bsclifton` would add BOTH remotes `arca-browser` and `arca-core`:
 ```sh
 # root where project is cloned
-cd ~/brave-browser/
-git remote add bsclifton git@github.com:bsclifton/brave-browser.git
+cd ~/arca-browser/
+git remote add bsclifton git@github.com:bsclifton/arca-browser.git
 git fetch bsclifton
-# root for the `brave-core` repo
-cd src/brave
-git remote add bsclifton git@github.com:bsclifton/brave-core.git
+# root for the `arca-core` repo
+cd src/arca
+git remote add bsclifton git@github.com:bsclifton/arca-core.git
 git fetch bsclifton
 ```
 
@@ -78,7 +78,7 @@ Once you're set up, there are a few tips we can suggest:
 
 * Make a new branch for your work. It helps to have a descriptive name, like `fix-fullscreen-issue`.
 * Make commits in logical units. If needed, run `git rebase -i` to squash commits before opening a pull request.
-* New features and most other pull requests require a new [test](https://github.com/brave/brave-browser/wiki/Tests) to be written before the pull request will be accepted.  Some exceptions would be a tweak to an area of code that doesn't have tests yet, text changes, build config changes, things that can't be tested due to test suite limitations, etc.
+* New features and most other pull requests require a new [test](https://github.com/arca/arca-browser/wiki/Tests) to be written before the pull request will be accepted.  Some exceptions would be a tweak to an area of code that doesn't have tests yet, text changes, build config changes, things that can't be tested due to test suite limitations, etc.
 * Use GitHub [auto-closing keywords](https://help.github.com/articles/closing-issues-via-commit-messages/) in the commit message, and make the commit message body as descriptive as necessary. Ex:
 
 ````
@@ -87,15 +87,15 @@ Once you're set up, there are a few tips we can suggest:
     This is a first pass at a contributor's guide so now people will know how to
     get pull requests accepted faster.
 
-    Fix https://github.com/brave/brave-browser/issues/108
+    Fix https://github.com/arca/arca-browser/issues/108
 ````
 
-* Run the tests by running `npm run test brave_unit_tests` and `npm run test brave_browser_tests`
-* JavaScript unit tests can be run from the `src/brave` directory using `npm run test-unit`
+* Run the tests by running `npm run test arca_unit_tests` and `npm run test arca_browser_tests`
+* JavaScript unit tests can be run from the `src/arca` directory using `npm run test-unit`
 
 
 ### Keeping your fork up to sync
-- Both `brave-browser` and `brave-core` clone themselves with the remote `origin` being upstream, so you can update either using `git pull`.
+- Both `arca-browser` and `arca-core` clone themselves with the remote `origin` being upstream, so you can update either using `git pull`.
 - Once `origin` is fetched, you can rebase your `master` branch against `origin/master`
     ```sh
     git fetch origin
@@ -120,13 +120,13 @@ Some helpful things to consider before submitting your work
 * If your change affects session or preferences, did you include steps to test? You may also consider manually testing an upgrade.
 
 #### Each pull request should include
-* a descriptive title; this gets used in the release notes ([desktop](https://github.com/brave/brave-browser/blob/master/CHANGELOG_DESKTOP.md) or [android](https://github.com/brave/brave-browser/blob/master/CHANGELOG_ANDROID.md))
+* a descriptive title; this gets used in the release notes ([desktop](https://github.com/arca/arca-browser/blob/master/CHANGELOG_DESKTOP.md) or [android](https://github.com/arca/arca-browser/blob/master/CHANGELOG_ANDROID.md))
 * a short summary of the changes
 * a reference to the issue that it fixes
 * steps to test the fix (if applicable)
 * for design-related changes, it is helpful to include screenshots
 
-Once you submit a pull request, you should tag reviewers and add labels if needed. If you do not have the necessary GitHub permissions to do so, a Brave member will take care of this for you.
+Once you submit a pull request, you should tag reviewers and add labels if needed. If you do not have the necessary GitHub permissions to do so, a arca member will take care of this for you.
 
 #### Employees should
 * Ensure the owner is tagged using the `Assignees` field
@@ -136,7 +136,7 @@ Once you submit a pull request, you should tag reviewers and add labels if neede
 ### Closing issues
 
 * Issues should be assigned the milestone when the PR is merged (and the fix is landed in Nightly aka master).
-* Some issues may need to be uplifted to other channels (Dev / Beta / Release). Please see our notes on [uplifting a pull request](https://github.com/brave/brave-browser/wiki/Uplifting-a-pull-request).
+* Some issues may need to be uplifted to other channels (Dev / Beta / Release). Please see our notes on [uplifting a pull request](https://github.com/arca/arca-browser/wiki/Uplifting-a-pull-request).
 * If an issue is closed without a fix, because it was a duplicate, or perhaps it was invalid, then any milestone markers should be removed.
 * If a bug is not fully fixed after its issue is closed, open a new issue instead of re-opening the existing one (unless the code has been reverted).
 
@@ -151,7 +151,7 @@ Once you submit a pull request, you should tag reviewers and add labels if neede
 * Improving steps to reproduce is helpful.
 * Testing and adding a comment with "Could not reproduce" if an issue seems obscure is helpful.
 * Testing open pull requests.
-* You can be granted write permission if you've helped a lot with triage by pinging @bbondy, @bsclifton, @kjozwiak, or another Brave team member.
-* Helping make sure issues have a clear and understandable name (ex: not something like "Brave is broken").
+* You can be granted write permission if you've helped a lot with triage by pinging @bbondy, @bsclifton, @kjozwiak, or another arca team member.
+* Helping make sure issues have a clear and understandable name (ex: not something like "arca is broken").
 * The first comment in an issue ideally would have a clear description of the issue and describe the impact to users. Asking folks for screenshots, steps to reproduce, and more information is highly recommended so that the issue is as clear as possible.
 * If the issue is a duplicate, please let the issue creator know in a polite way how they can follow and track progress of the parent issue (including an ETA if it's marked with a milestone).

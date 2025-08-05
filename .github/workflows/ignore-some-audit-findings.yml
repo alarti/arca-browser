@@ -15,7 +15,7 @@ jobs:
       - name: Trigger the creation of an audit-config PR to ignore an audit finding if it matches the specified criteria
         if: startsWith(github.event.issue.title, 'Audit finding:') &&
             contains(github.event.issue.labels.*.name, 'bot/type/audit') &&
-            github.event.issue.user.login == 'brave-builds'
+            github.event.issue.user.login == 'arca-builds'
         run: |
           set -eEo pipefail
           shopt -s inherit_errexit

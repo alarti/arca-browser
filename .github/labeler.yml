@@ -16,7 +16,7 @@
 crash:
   - '^Crash Report|Crash ID: crash/'
 
-## disabled, see: https://bravesoftware.slack.com/archives/C08Q08M6F/p1715702078079739?thread_ts=1715701662.931169&cid=C08Q08M6F
+## disabled, see: https://arcasoftware.slack.com/archives/C08Q08M6F/p1715702078079739?thread_ts=1715701662.931169&cid=C08Q08M6F
 # OS/Linux:
 #   - 'OS[|:\s]+Linux|Operating System:\s+Linux'
 # 

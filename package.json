@@ -1,41 +1,41 @@
 {
-  "name": "brave",
+  "name": "arca",
   "version": "1.83.13",
-  "description": "Next generation Brave browser for macOS, Windows, Linux, and Android",
-  "homepage": "https://github.com/brave/brave-browser#readme",
+  "description": "Next generation arca browser for macOS, Windows, Linux, and Android",
+  "homepage": "https://github.com/arca/arca-browser#readme",
   "bugs": {
-    "url": "https://github.com/brave/brave-browser/issues"
+    "url": "https://github.com/arca/arca-browser/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brave/brave-browser.git"
+    "url": "git+https://github.com/arca/arca-browser.git"
   },
   "license": "MPL-2.0",
   "author": {
-    "name": "Brave Software <support@brave.com>"
+    "name": "arca Software <support@arca.com>"
   },
   "scripts": {
-    "apply_patches": "cd src/brave && npm run apply_patches --",
-    "audit_deps": "cd src/brave && npm run audit_deps --",
-    "build": "cd src/brave && npm run build --",
-    "chromium_rebase_l10n": "cd src/brave && npm run chromium_rebase_l10n --",
-    "cibuild": "cd src/brave && npm run cibuild --",
-    "create_dist": "cd src/brave && npm run create_dist --",
-    "delete_string_translations": "cd src/brave && npm run delete_string_translations --",
-    "gclient": "cd src/brave && npm run gclient --",
-    "gn_check": "cd src/brave && npm run gn_check --",
+    "apply_patches": "cd src/arca && npm run apply_patches --",
+    "audit_deps": "cd src/arca && npm run audit_deps --",
+    "build": "cd src/arca && npm run build --",
+    "chromium_rebase_l10n": "cd src/arca && npm run chromium_rebase_l10n --",
+    "cibuild": "cd src/arca && npm run cibuild --",
+    "create_dist": "cd src/arca && npm run create_dist --",
+    "delete_string_translations": "cd src/arca && npm run delete_string_translations --",
+    "gclient": "cd src/arca && npm run gclient --",
+    "gn_check": "cd src/arca && npm run gn_check --",
     "init": "node ./scripts/init.js",
-    "lint": "cd src/brave && npm run lint --",
-    "network-audit": "cd src/brave && npm run network-audit --",
-    "pull_l10n": "cd src/brave && npm run pull_l10n --",
-    "push_l10n": "cd src/brave && npm run push_l10n --",
-    "start": "cd src/brave && npm run start --",
-    "sync": "cd src/brave && npm run sync --",
-    "test": "cd src/brave && npm run test --",
-    "test-security": "cd src/brave && npm run test-security --",
+    "lint": "cd src/arca && npm run lint --",
+    "network-audit": "cd src/arca && npm run network-audit --",
+    "pull_l10n": "cd src/arca && npm run pull_l10n --",
+    "push_l10n": "cd src/arca && npm run push_l10n --",
+    "start": "cd src/arca && npm run start --",
+    "sync": "cd src/arca && npm run sync --",
+    "test": "cd src/arca && npm run test --",
+    "test-security": "cd src/arca && npm run test-security --",
     "test:scripts": "jest lib scripts --passWithNoTests",
-    "update_patches": "cd src/brave && npm run update_patches --",
-    "versions": "cd src/brave && npm run versions --"
+    "update_patches": "cd src/arca && npm run update_patches --",
+    "versions": "cd src/arca && npm run versions --"
   },
   "engines": {
     "node": ">=20.0.0 <25.0.0",
@@ -43,11 +43,11 @@
   },
   "config": {
     "projects": {
-      "brave-core": {
-        "dir": "src/brave",
+      "arca-core": {
+        "dir": "src/arca",
         "branch": "master",
         "repository": {
-          "url": "https://github.com/brave/brave-core.git"
+          "url": "https://github.com/arca/arca-core.git"
         }
       }
     }

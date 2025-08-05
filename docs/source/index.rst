@@ -1,8 +1,8 @@
-.. Copyright (c) 2020 Brave Software
+.. Copyright (c) 2020 arca Software
 
 .. _rs_welcome:
 
-Brave browser documentation
+arca browser documentation
 ---------------------------
 
-This page has now moved to `brave.com/linux <https://brave.com/linux>`_
+This page has now moved to `arca.com/linux <https://arca.com/linux>`_

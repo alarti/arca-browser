@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-author = 'Brave Software'
-project = 'Brave browser'
-copyright = '2023, Brave Software'
+author = 'arca Software'
+project = 'arca browser'
+copyright = '2023, arca Software'
 
 # The short X.Y version
 version = ''
@@ -81,8 +81,8 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
-    'description': '<a href="https://www.brave.com">brave.com</a><meta http-equiv="refresh" content="2; URL=https://brave.com/linux">',
-    'logo': 'brave-release.svg',
+    'description': '<a href="https://www.arca.com">arca.com</a><meta http-equiv="refresh" content="2; URL=https://arca.com/linux">',
+    'logo': 'arca-release.svg',
     'head_font_family': 'Muli, Proxima Nova, Avenir',
     'caption_font_size': '14px',
     'caption_font_family': 'Muli, Proxima Nova, Avenir',
@@ -113,7 +113,7 @@ html_favicon = '_static/product_logo_32.png'
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'BraveBrowserdoc'
+htmlhelp_basename = 'arcaBrowserdoc'
 
 html_css_files = ['custom.css']
 
@@ -142,8 +142,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'BraveBrowser.tex', 'Brave Browser Documentation',
-     'Brave Software', 'manual'),
+    (master_doc, 'arcaBrowser.tex', 'arca Browser Documentation',
+     'arca Software', 'manual'),
 ]
 
 
@@ -152,7 +152,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'bravebrowser', 'Brave Browser Documentation',
+    (master_doc, 'arcabrowser', 'arca Browser Documentation',
      [author], 1)
 ]
 
@@ -163,8 +163,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'BraveBrowser', 'Brave Browser Documentation',
-     author, 'BraveBrowser', 'One line description of project.',
+    (master_doc, 'arcaBrowser', 'arca Browser Documentation',
+     author, 'arcaBrowser', 'One line description of project.',
      'Miscellaneous'),
 ]
 
