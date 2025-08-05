@@ -1,4 +1,5 @@
 
+![Arca Browser](./docs/source/_static/arca-logo.svg)
 
 ## Overview
 
